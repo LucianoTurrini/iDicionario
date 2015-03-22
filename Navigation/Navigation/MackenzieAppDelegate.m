@@ -7,25 +7,46 @@
 //
 
 #import "MackenzieAppDelegate.h"
-#import "LetraAViewController.h"
 
 @implementation MackenzieAppDelegate
 
+@synthesize palavrasTableController;
+@synthesize tabBarController;
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    LetraAViewController *viewController = [[LetraAViewController alloc]
+    
+    // init view 
+    LetrasViewController *viewController = [[LetrasViewController alloc]
                                            initWithNibName:nil
                                            bundle:nil];
+    // init table
+    palavrasTableController = [[PalavrasTableViewController alloc] init];
     
-    
+    // init Navigation
     self.navigationController = [[UINavigationController alloc]
                                  initWithRootViewController:viewController];
+    
+    // init TabBarController
+    tabBarController = [[UITabBarController alloc] init];
+    
+    // set Array TabBarController
+    tabBarController.ViewControllers = @[self.navigationController, palavrasTableController];
+    
+    // set Titles on TabBarController Items
+    [[tabBarController.tabBar.items objectAtIndex:0]setTitle:@"Letra"];
+    [[tabBarController.tabBar.items objectAtIndex:1]setTitle:@"Dicionário"];
+    
+    
+    // set Images on TabBarController Images
+    [[tabBarController.tabBar.items objectAtIndex:0] setImage:[UIImage imageNamed:@"abc"]];
+    [[tabBarController.tabBar.items objectAtIndex:1] setImage:[UIImage imageNamed:@"dicionario"]];
+    
     self.window = [[UIWindow alloc]
                    initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = self.navigationController;
+    self.window.rootViewController = tabBarController;
 
-
-    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21AA84751AB70D3800D5178E /* LetrasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA84741AB70D3800D5178E /* LetrasViewController.m */; };
+		2195DDC21AB72375001EE172 /* LettersInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195DDC11AB72375001EE172 /* LettersInteraction.m */; };
+		21AA84781AB70E4B00D5178E /* LetrasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA84771AB70E4B00D5178E /* LetrasViewController.m */; };
+		21EC10901ABB078F00428329 /* PalavrasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EC108F1ABB078F00428329 /* PalavrasTableViewController.m */; };
 		27156F4D18B76AF50053A99C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27156F4C18B76AF50053A99C /* Foundation.framework */; };
 		27156F4F18B76AF50053A99C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27156F4E18B76AF50053A99C /* CoreGraphics.framework */; };
 		27156F5118B76AF50053A99C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27156F5018B76AF50053A99C /* UIKit.framework */; };
@@ -20,8 +22,6 @@
 		27156F6818B76AF50053A99C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27156F5018B76AF50053A99C /* UIKit.framework */; };
 		27156F7018B76AF50053A99C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27156F6E18B76AF50053A99C /* InfoPlist.strings */; };
 		27156F7218B76AF50053A99C /* NavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27156F7118B76AF50053A99C /* NavigationTests.m */; };
-		27156F7D18BA89430053A99C /* LetraAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27156F7C18BA89430053A99C /* LetraAViewController.m */; };
-		27156F8018BA8B210053A99C /* LetraBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27156F7F18BA8B210053A99C /* LetraBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21AA84731AB70D3800D5178E /* LetrasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetrasViewController.h; sourceTree = "<group>"; };
-		21AA84741AB70D3800D5178E /* LetrasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetrasViewController.m; sourceTree = "<group>"; };
+		2195DDC01AB72375001EE172 /* LettersInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LettersInteraction.h; sourceTree = "<group>"; };
+		2195DDC11AB72375001EE172 /* LettersInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LettersInteraction.m; sourceTree = "<group>"; };
+		21AA84761AB70E4B00D5178E /* LetrasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetrasViewController.h; sourceTree = "<group>"; };
+		21AA84771AB70E4B00D5178E /* LetrasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetrasViewController.m; sourceTree = "<group>"; };
+		21EC108E1ABB078F00428329 /* PalavrasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalavrasTableViewController.h; sourceTree = "<group>"; };
+		21EC108F1ABB078F00428329 /* PalavrasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalavrasTableViewController.m; sourceTree = "<group>"; };
 		27156F4918B76AF50053A99C /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27156F4C18B76AF50053A99C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27156F4E18B76AF50053A99C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,18 +49,14 @@
 		27156F5618B76AF50053A99C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27156F5818B76AF50053A99C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27156F5A18B76AF50053A99C /* Navigation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Navigation-Prefix.pch"; sourceTree = "<group>"; };
-		27156F5B18B76AF50053A99C /* MackenzieAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MackenzieAppDelegate.h; sourceTree = "<group>"; };
-		27156F5C18B76AF50053A99C /* MackenzieAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MackenzieAppDelegate.m; sourceTree = "<group>"; };
+		27156F5B18B76AF50053A99C /* MackenzieAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MackenzieAppDelegate.h; path = Navigation/MackenzieAppDelegate.h; sourceTree = "<group>"; };
+		27156F5C18B76AF50053A99C /* MackenzieAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MackenzieAppDelegate.m; path = Navigation/MackenzieAppDelegate.m; sourceTree = "<group>"; };
 		27156F5E18B76AF50053A99C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27156F6418B76AF50053A99C /* NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27156F6518B76AF50053A99C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		27156F6D18B76AF50053A99C /* NavigationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationTests-Info.plist"; sourceTree = "<group>"; };
 		27156F6F18B76AF50053A99C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27156F7118B76AF50053A99C /* NavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTests.m; sourceTree = "<group>"; };
-		27156F7B18BA89430053A99C /* LetraAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetraAViewController.h; sourceTree = "<group>"; };
-		27156F7C18BA89430053A99C /* LetraAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetraAViewController.m; sourceTree = "<group>"; };
-		27156F7E18BA8B210053A99C /* LetraBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetraBViewController.h; sourceTree = "<group>"; };
-		27156F7F18BA8B210053A99C /* LetraBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetraBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2168519B1ABF46B700360E1A /* ViewsController */ = {
+			isa = PBXGroup;
+			children = (
+				21AA84761AB70E4B00D5178E /* LetrasViewController.h */,
+				21AA84771AB70E4B00D5178E /* LetrasViewController.m */,
+			);
+			name = ViewsController;
+			sourceTree = "<group>";
+		};
+		2168519C1ABF46DA00360E1A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				27156F5B18B76AF50053A99C /* MackenzieAppDelegate.h */,
+				27156F5C18B76AF50053A99C /* MackenzieAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		2195DDBF1AB7233F001EE172 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2195DDC01AB72375001EE172 /* LettersInteraction.h */,
+				2195DDC11AB72375001EE172 /* LettersInteraction.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		21EC10911ABB079E00428329 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				21EC108E1ABB078F00428329 /* PalavrasTableViewController.h */,
+				21EC108F1ABB078F00428329 /* PalavrasTableViewController.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
 		27156F4018B76AF50053A99C = {
 			isa = PBXGroup;
 			children = (
+				2168519C1ABF46DA00360E1A /* Delegate */,
 				27156F5218B76AF50053A99C /* Navigation */,
 				27156F6B18B76AF50053A99C /* NavigationTests */,
 				27156F4B18B76AF50053A99C /* Frameworks */,
@@ -116,16 +153,11 @@
 		27156F5218B76AF50053A99C /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				21AA84731AB70D3800D5178E /* LetrasViewController.h */,
-				21AA84741AB70D3800D5178E /* LetrasViewController.m */,
-				27156F5B18B76AF50053A99C /* MackenzieAppDelegate.h */,
-				27156F5C18B76AF50053A99C /* MackenzieAppDelegate.m */,
+				21EC10911ABB079E00428329 /* TableView */,
+				2195DDBF1AB7233F001EE172 /* Model */,
 				27156F5E18B76AF50053A99C /* Images.xcassets */,
 				27156F5318B76AF50053A99C /* Supporting Files */,
-				27156F7B18BA89430053A99C /* LetraAViewController.h */,
-				27156F7C18BA89430053A99C /* LetraAViewController.m */,
-				27156F7E18BA8B210053A99C /* LetraBViewController.h */,
-				27156F7F18BA8B210053A99C /* LetraBViewController.m */,
+				2168519B1ABF46B700360E1A /* ViewsController */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -256,9 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27156F5D18B76AF50053A99C /* MackenzieAppDelegate.m in Sources */,
-				27156F7D18BA89430053A99C /* LetraAViewController.m in Sources */,
-				21AA84751AB70D3800D5178E /* LetrasViewController.m in Sources */,
-				27156F8018BA8B210053A99C /* LetraBViewController.m in Sources */,
+				21AA84781AB70E4B00D5178E /* LetrasViewController.m in Sources */,
+				21EC10901ABB078F00428329 /* PalavrasTableViewController.m in Sources */,
+				2195DDC21AB72375001EE172 /* LettersInteraction.m in Sources */,
 				27156F5918B76AF50053A99C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
